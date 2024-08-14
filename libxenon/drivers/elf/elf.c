@@ -269,7 +269,7 @@ char *argv_GetDevice(const char *argv)
     return _device;
 }
 
-void elf_setArgcArgv(int argc, char *argv[])
+void elf_setArgcArgv(int argc, const char *argv[])
 {
 	int i;
 
